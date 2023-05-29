@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@viaprotocol/web3-wallets": {
+      "signature": "5c07315b52ec71b82462ad1c85e5ff79",
+      "file": true,
+      "replaced": "^1.1.11"
+    }
+  }
+}

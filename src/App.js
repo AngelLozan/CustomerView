@@ -1,25 +1,25 @@
+import { WalletContext, WalletProvider } from '@viaprotocol/web3-wallets';
+import { useContext } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NestedComponent from './components/walletconnector.js';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import ContactForm from './components/emailform.js';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    return (
+        <div className="App">
+          <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+          </header>
+
+            <WalletProvider>
+              <NestedComponent />
+            </WalletProvider>
+
+            
+        </div>
+    );
+};
 
 export default App;
