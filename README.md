@@ -7,3 +7,5 @@ Need to configure buttons and providers based on node modules.
 ## See https://github.com/viaprotocol/web3-wallets for use.
 
 ![Wallet connect demo](https://www.loom.com/share/0de5d30b2f904e5f8e5d5a7b7080cf00 "Wallet Connect demo")
+
+<video src='https://www.loom.com/share/0de5d30b2f904e5f8e5d5a7b7080cf00' width=180/>
